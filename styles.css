@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: rgb(26, 35, 53);
 }
 h1,
 h2,
@@ -22,4 +21,39 @@ p,
 li {
   margin: 0;
   padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex: 1;
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: goldenrod;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
